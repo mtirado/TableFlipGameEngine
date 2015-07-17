@@ -1,0 +1,37 @@
+Entity
+{
+    Name box2d-test
+    Logic Bomb
+    Sprite 13
+    [
+        origin 0 0
+        dimensions 4.0 8.0
+        offset 0.0 4.0
+        framesize 32 64
+        rows 1
+        cols 13
+        texturesize 416
+    ]
+    Material
+    [
+        Data/Shaders/Sprite.shader
+        UniformLinks 1
+        sampler 12 
+        Data/Textures/sprites.png 0 0
+    ]
+    CollisionShape
+    [
+        type box2d
+        trigger 0
+        2.5 3.0
+    ]
+    RigidBody
+    [
+        mass 1.01
+        lineardrag 0.001
+        angulardrag 0.01
+        friction 1.0
+        rollingfriction 0.13
+        restitution 0.0
+    ]
+}

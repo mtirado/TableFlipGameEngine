@@ -1,0 +1,16 @@
+Entity
+{
+	Name TestObject  
+    Mesh Data/Models/thingy.obj 1
+    Material
+	[
+        Data/Shaders/Grid.shader
+        UniformLinks 0
+    ]
+    CollisionShape
+    [
+        type sphere
+        trigger 0
+        0.93   
+    ]          
+}

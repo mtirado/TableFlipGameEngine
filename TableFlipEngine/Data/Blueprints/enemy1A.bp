@@ -1,0 +1,26 @@
+Entity
+{
+	Name Enemy1A  
+    Mesh Data/Models/enemy1A.obj 1
+	Logic Worker
+    Material
+	[
+        Data/Shaders/Grid.shader
+        UniformLinks 0
+    ]
+	RigidBody
+    [
+        mass 15.0
+        lineardrag 0.01
+        angulardrag 0.03
+        friction 1.0
+        rollingfriction 0.13
+        restitution 0.0
+    ]
+    CollisionShape
+    [
+        type sphere
+        trigger 0
+        1.23   
+    ]          
+}

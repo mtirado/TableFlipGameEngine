@@ -1,0 +1,25 @@
+Entity
+{
+	Name Lander
+    Logic Lander
+	Mesh Data/Models/lander.obj 0
+	Material
+	[
+        Data/Shaders/Grid.shader
+        UniformLinks 0
+    ]
+	CollisionShape
+    [
+        type mesh
+        trigger 0
+    ]
+    RigidBody
+    [
+        mass 17000.0
+        lineardrag 0.13
+        angulardrag 0.1123
+        friction 30.0
+        rollingfriction 0.13
+        restitution 0.0
+    ]
+}

@@ -1,0 +1,7 @@
+#!/bin/bash
+#repack emscripten data file instead of recompiling everything
+#change EMROOT to your local emscripten repo
+DATA_FILENAME=webgl_build.data
+DATA_DIR=Data/
+EMROOT=~/projects/emscripten-master/emscripten/
+python $EMROOT/tools/file_packager.py $DATA_FILENAME --preload $DATA_DIR

@@ -1,0 +1,5 @@
+Entity
+{
+	Name HomeBase
+	Logic HomeBase
+}

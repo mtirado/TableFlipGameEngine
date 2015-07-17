@@ -1,0 +1,20 @@
+Entity
+{
+    Name CamShip 
+    Logic CamShip
+    RigidBody
+    [
+        mass 500.0
+        lineardrag 0.0
+        angulardrag 0.0
+        friction 0.0
+        rollingfriction 0.0
+        restitution 0.0
+    ]
+    CollisionShape
+    [
+        type box
+        trigger 0
+        0.33 0.33 0.33    
+    ]          
+}

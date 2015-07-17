@@ -1,0 +1,24 @@
+Entity
+{
+	Name TowerA  
+    Mesh Data/Models/box.obj 0
+    Material
+	[
+        Data/Shaders/Colored-lit.shader
+        UniformLinks 0
+    ]
+    CollisionShape
+    [
+        type mesh
+        trigger 0
+    ]
+    RigidBody
+    [
+        mass 7.0
+        lineardrag 0.35
+        angulardrag 0.431
+        friction 1.0
+        rollingfriction 0.13
+        restitution 0.0
+    ]
+}

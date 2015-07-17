@@ -1,0 +1,14 @@
+Entity
+{
+    Name theSky  
+    Mesh Data/Models/skydome.obj 0
+    Material
+    [
+        Data/Shaders/Sky.shader
+        UniformLinks 2
+        centerColor 2
+        1.0 0.6156 0.01
+        apexColor 2 
+        0.00686 0.13335667 0.2509
+    ]          
+}

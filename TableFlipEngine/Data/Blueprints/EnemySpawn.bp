@@ -1,0 +1,16 @@
+Entity
+{
+	Name EnemySpawn
+	Logic EnemySpawnxxx
+	Mesh Data/Models/homeBase.obj 0
+	Material
+	[
+        Data/Shaders/Grid.shader
+        UniformLinks 0
+    ]
+	CollisionShape
+    [
+        type mesh
+        trigger 0
+    ]
+}

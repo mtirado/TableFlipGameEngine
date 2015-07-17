@@ -1,0 +1,15 @@
+Entity
+{
+	Name TowerA  
+    Mesh Data/Models/towerA.obj 0
+    Material
+	[
+        Data/Shaders/QuadishGrid.shader
+        UniformLinks 0
+    ]
+    CollisionShape
+    [
+        type mesh
+        trigger 0
+    ]
+}

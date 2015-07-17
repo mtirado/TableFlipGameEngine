@@ -1,0 +1,15 @@
+Entity
+{
+	Name Agency 
+    Mesh Data/Models/agency.obj 0
+    Material
+	[
+        Data/Shaders/QuadishGrid.shader
+        UniformLinks 0
+    ]
+    CollisionShape
+    [
+        type mesh
+        trigger 0
+    ]
+}

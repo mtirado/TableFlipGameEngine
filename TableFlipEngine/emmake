@@ -1,0 +1,12 @@
+#!/bin/bash
+#transpile to javascript using emscripten
+#-DCMAKE_BUILD_TYPE=<Debug|RelWithDebInfo|Release|MinSizeRel>
+#change EMROOT to your local emscripten repo
+#root was ~/projects/emscripten-master/emscripten/
+CMAKELISTPATH=./
+EMROOT=~/projects/emscripten-master/emscripten/
+cmake -DCMAKE_TOOLCHAIN_FILE=$EMROOT/cmake/Platform/Emscripten.cmake \
+       -DCMAKE_BUILD_TYPE=Release \
+       -DWEBGL_BUILD_TARGET=True \
+       -G "Unix Makefiles" \
+       $CMAKELISTPATH

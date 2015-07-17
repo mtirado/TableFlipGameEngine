@@ -1,0 +1,5 @@
+Entity
+{
+    Name tilemap
+    Tilemap Data/Worlds/testMap.tmx
+}
