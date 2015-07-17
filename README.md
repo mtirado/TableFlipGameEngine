@@ -1,15 +1,15 @@
-##xFlip  --  a game engine
+##Tableflip Game Engine
 
 **libraries used:**
 * OpenGL / WebGL
 * Bullet Physics
 * OpenAL
-* YakNet
+* yaknet
 * SOIL / stb_image
 * Freetype-gl (binary requires license notice)
 * Emscripten
-* X11 / Xi
-* QuartzCore(CoreVideo)
+* (linux) X11 / Xi
+* (osx) QuartzCore(CoreVideo)
 * GLEW
 * TinyXML2(for tiled map files)
 * Android NDK
